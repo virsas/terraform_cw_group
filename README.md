@@ -10,7 +10,7 @@ Terraform module to create cloudwatch log group.
 
 ``` terraform
 module "cw_cloudtrail" {
-  source    = "github.com/virsas/terraform_cw_group"
+  source    = "git::https://github.com/virsas/terraform_cw_group.git?ref=v1.0.0"
   # this is the name of the group
   name      = "/aws/cloudtrail"
   # how long the log should be kept
